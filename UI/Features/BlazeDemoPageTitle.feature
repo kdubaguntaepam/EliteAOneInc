@@ -1,0 +1,1 @@
+@UI\nFeature: BlazeDemo Page Title Verification\n  As a user\n  I want to verify the page title of BlazeDemo\n  So that I can ensure the page is loaded correctly\n\n  @Positive @PageTitle\n  Scenario: Verify BlazeDemo page title\n    Given I navigate to BlazeDemo homepage\n    Then the page title should be \"BlazeDemo\"
