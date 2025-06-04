@@ -1,0 +1,1 @@
+Feature: Verify Page Title\n  As a user\n  I want to verify the page title of BlazeDemo\n\n  Scenario: Verify the page title of BlazeDemo\n    Given I navigate to \"https://blazedemo.com/\"\n    Then the page title should be \"BlazeDemo\"
