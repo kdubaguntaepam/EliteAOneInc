@@ -1,0 +1,1 @@
+@API @Negative\nFeature: Update Pet with Empty Request Body\n  Scenario: Verify error when updating a pet with an empty request body\n    Given a pet exists with ID \"12345\"\n    When I update the pet with an empty request body\n    Then the response status code should be \"400\"\n    And the response message should be \"Invalid input\"
