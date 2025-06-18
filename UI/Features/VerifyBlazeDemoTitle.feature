@@ -1,0 +1,11 @@
+#language: en
+
+@UI @Positive
+Feature: Verify BlazeDemo Page Title
+  As a user
+  I want to verify the page title of BlazeDemo website
+  So that I can ensure the website loads correctly
+
+  Scenario: Verify the page title of BlazeDemo
+    Given I navigate to 'https://blazedemo.com/'
+    Then the page title should be 'BlazeDemo'
